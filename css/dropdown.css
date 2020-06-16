@@ -1,0 +1,32 @@
+.dropdown-menu li a:hover{
+    background-color:#807777;
+}
+
+.dropdown-menu li:hover{
+    background-color: #807777;
+}
+
+.dropdown-menu li a{
+    text-decoration: none;
+}
+
+.font-text1{
+    font-family: Arial Black;
+    font-size:10pt;
+}
+
+.dropdown-menu li a{
+    margin-left: 5px;
+}
+
+.dropdown-item:hover{
+    background-color: rgba(239, 239, 243, 0.3);
+}
+
+/* hover dropdown */
+@media (min-width: 768px){
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+}
+
