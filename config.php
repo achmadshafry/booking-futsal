@@ -4,7 +4,7 @@ $koneksi = mysqli_connect
 				"localhost",
 				"root",
 				"",
-				"dbppid"
+				"dbadmin_futsal"
 			);
 if (mysqli_connect_errno())
 	{
