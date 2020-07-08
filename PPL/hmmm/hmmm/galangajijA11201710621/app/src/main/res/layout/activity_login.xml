@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CustomRelativeLayout"
+    tools:context=".Auth.Login"
+    android:background="@drawable/homefutsal">
+
+    <ImageView
+        android:layout_width="272dp"
+        android:layout_height="270dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/bola" />
+
+    <LinearLayout
+        android:id="@+id/layoutEmailPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textError"
+        android:layout_marginTop="400dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/krem"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Password"
+                android:background="@color/krem"
+                android:inputType="textPassword"
+                android:maxLines="1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+<!--    <TextView-->
+<!--        android:id="@+id/lupaPass"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Lupa password ?"-->
+<!--        android:textAlignment="textEnd"-->
+<!--        android:paddingRight="4dp"-->
+<!--        android:layout_below="@id/layoutEmailPassword"-->
+<!--        android:gravity="end"-->
+<!--        android:layout_marginVertical="8dp"/>-->
+
+    <LinearLayout
+        android:id="@+id/layoutMasuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutEmailPassword"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMasuk"
+            style="?android:attr/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/gradient"
+            android:text="MASUK"
+            android:textColor="@color/colorPutih"
+            android:theme="@style/ThemeOverlay.MyDarkButton" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="4dp"
+        android:layout_below="@id/layoutMasuk">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum punya akun ?"/>
+        <TextView
+            android:id="@+id/buatAkun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Buat akun"
+            android:textColor="@color/colorBiruMuda"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

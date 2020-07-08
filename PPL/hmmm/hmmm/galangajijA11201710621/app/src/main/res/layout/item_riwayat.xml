@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:id="@+id/layoutBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Faktur" />
+            <TextView
+                android:id="@+id/noFakIR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Faktur"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kode" />
+            <TextView
+                android:id="@+id/kodeIR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kode Lapangan"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal" />
+            <TextView
+                android:id="@+id/tglJualIR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Booking"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Pembayaran" />
+            <TextView
+                android:id="@+id/totalJualIR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Bayar"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

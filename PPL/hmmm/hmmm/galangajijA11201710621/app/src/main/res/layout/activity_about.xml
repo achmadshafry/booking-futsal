@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CustomRelativeLayout"
+    android:background="@color/hijau"
+    tools:context=".View.About">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developer"
+        android:textSize="24dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorPutih"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/galang"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Galang Aji Muliana"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPutih"
+            android:layout_margin="8dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="galangmuliana13@gmail.com"
+            android:textSize="20dp"
+            android:textColor="@color/colorPutih"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

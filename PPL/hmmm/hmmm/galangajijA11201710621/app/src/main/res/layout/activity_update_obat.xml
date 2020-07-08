@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CustomRelativeLayout"
+    tools:context=".Action.UpdateObat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnPilihUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilih lapangan"
+                android:background="@color/colorPutih"
+                android:padding="18dp"
+                android:textAllCaps="false"/>
+
+            <ImageView
+                android:id="@+id/previewImgUp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <EditText
+                android:id="@+id/editKodeUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Kode lapangan"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/editNamaUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Nama"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/editSatuanUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Jam Booking"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/editJumlahUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Lama booking"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/editExpiredUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Tanggal Kadaluarsa"
+                android:inputType="date"/>
+
+            <EditText
+                android:id="@+id/editHargaUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Harga"
+                android:inputType="number"/>
+
+            <ProgressBar
+                android:id="@+id/progress_barUp"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp">
+                <Button
+                    android:id="@+id/btnBackUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="12dp"
+                    android:padding="18dp"
+                    android:background="@drawable/rect_grayoutline"
+                    android:text="Kembali"/>
+                <Button
+                    android:id="@+id/btnAddUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="12dp"
+                    android:padding="18dp"
+                    android:textColor="@color/colorPutih"
+                    android:background="@drawable/gradient"
+                    android:text="Simpan"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

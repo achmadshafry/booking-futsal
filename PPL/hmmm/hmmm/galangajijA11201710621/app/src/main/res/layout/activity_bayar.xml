@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CustomRelativeLayout"
+    tools:context=".View.Bayar">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/layoutPesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layoutBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gambarB"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Faktur" />
+            <TextView
+                android:id="@+id/noFak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Faktur"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal" />
+            <TextView
+                android:id="@+id/tglJual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Booking"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kode" />
+            <TextView
+                android:id="@+id/kodeB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kode Lapangan"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama" />
+            <TextView
+                android:id="@+id/namaObatB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harga" />
+            <TextView
+                android:id="@+id/hargaSatuanB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harga"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lama" />
+            <TextView
+                android:id="@+id/jmlObatB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lama booking"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/>
+     <!--<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal" />
+            <TextView
+                android:id="@+id/tglJual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Kejadian"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi"
+            <TextView
+                android:id="@+id/kodeB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi Kejadian"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Pelapor"
+            <TextView
+                android:id="@+id/namaObatB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Pelapor"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+            <TextView
+                android:id="@+id/satuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat Pelapor"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TKP"
+            <TextView
+                android:id="@+id/kejadian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tempat Kejadian"
+                android:textSize="20dp"
+                android:textColor="@color/colorHitam"
+                android:layout_marginBottom="8dp"/> -->
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/totalHargaB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:text="Total Bayar : "
+                android:textSize="18dp"
+                android:textColor="@color/colorHitam"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnBayar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:layout_gravity="end"
+                android:textColor="@color/colorPutih"
+                android:background="@drawable/gradient"
+                android:text="Bayar"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

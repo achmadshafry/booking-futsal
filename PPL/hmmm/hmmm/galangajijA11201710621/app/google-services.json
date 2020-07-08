@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "305612428533",
+    "firebase_url": "https://datappl-38e8f.firebaseio.com",
+    "project_id": "datappl-38e8f",
+    "storage_bucket": "datappl-38e8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305612428533:android:4f49d1fd6906f73b33e1bc",
+        "android_client_info": {
+          "package_name": "com.Galang.Galang10621"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305612428533-gnjcvdii9hl57ig80ep290b5f8qkk35b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzwJCqPtxT5K5nj60VrC1cRJB-jD9HOKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305612428533-gnjcvdii9hl57ig80ep290b5f8qkk35b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

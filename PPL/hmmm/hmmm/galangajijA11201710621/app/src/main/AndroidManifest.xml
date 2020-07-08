@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Galang.Galang10621">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.Galang.Galang10621.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.Galang.Galang10621.Auth.Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.Galang.Galang10621.Auth.Register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.Galang.Galang10621.View.Dashboard"
+            android:label="Dashboard" />
+        <activity
+            android:name="com.Galang.Galang10621.View.About"
+            android:label="About Me"
+            android:parentActivityName="com.Galang.Galang10621.View.Dashboard" />
+        <activity
+            android:name="com.Galang.Galang10621.View.Transaksi"
+            android:label="Transaksi"
+            android:parentActivityName="com.Galang.Galang10621.View.Dashboard" />
+        <activity
+            android:name="com.Galang.Galang10621.View.Stok"
+            android:label="Daftar Booking"
+            android:parentActivityName="com.Galang.Galang10621.View.Dashboard" />
+        <activity
+            android:name="com.Galang.Galang10621.Action.AddObat"
+            android:label="Tambah"
+            android:parentActivityName="com.Galang.Galang10621.View.Stok" />
+        <activity
+            android:name="com.Galang.Galang10621.View.DetailObat"
+            android:label="Detail"
+            android:parentActivityName="com.Galang.Galang10621.View.Stok" />
+        <activity
+            android:name="com.Galang.Galang10621.Action.UpdateObat"
+            android:label="Update Booking"
+            android:parentActivityName="com.Galang.Galang10621.View.Stok" />
+        <activity
+            android:name="com.Galang.Galang10621.View.DetailTransaksi"
+            android:label="Detail Transaksi"
+            android:parentActivityName="com.Galang.Galang10621.View.Transaksi" />
+        <activity
+            android:name="com.Galang.Galang10621.View.Bayar"
+            android:label="Pembayaran"/>
+        <activity
+            android:name="com.Galang.Galang10621.View.RiwayatJual"
+            android:label="Riwayat"
+            android:parentActivityName="com.Galang.Galang10621.View.Transaksi"/>
+        <activity
+            android:name="com.Galang.Galang10621.View.DetailRiwayat"
+            android:label="Detail"
+            android:parentActivityName="com.Galang.Galang10621.View.RiwayatJual"/>
+
+
+
+
+
+    </application>
+
+</manifest>
