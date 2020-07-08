@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CustomRelativeLayout"
+    tools:context=".MainActivity"
+    android:background="@drawable/homefutsal">
+
+    <ImageView
+    android:layout_width="272dp"
+    android:layout_height="270dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="7dp"
+    android:src="@drawable/bola" />
+
+
+    <LinearLayout
+        android:id="@+id/layoutMasuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnMasuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:text="MASUK"
+            android:textColor="@color/colorHitam"
+            android:background="@drawable/rect_grayoutline"/>
+
+        <Button
+            android:id="@+id/btnDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:text="DAFTAR"
+            android:textColor="@color/colorPutih"
+            android:background="@drawable/gradient"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

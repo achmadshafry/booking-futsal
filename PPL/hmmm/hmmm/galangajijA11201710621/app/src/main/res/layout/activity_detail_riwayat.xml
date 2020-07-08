@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    tools:context=".View.DetailRiwayat">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Faktur" />
+    <TextView
+        android:id="@+id/noFakR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Faktur"
+        android:textSize="20dp"
+        android:textColor="@color/colorHitam"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal" />
+    <TextView
+        android:id="@+id/tglJualR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Booking"
+        android:textSize="20dp"
+        android:textColor="@color/colorHitam"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kode" />
+    <TextView
+        android:id="@+id/kodeR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kode Lapangan"
+        android:textSize="20dp"
+        android:textColor="@color/colorHitam"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga " />
+    <TextView
+        android:id="@+id/hargaSatuanR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga "
+        android:textSize="20dp"
+        android:textColor="@color/colorHitam"
+        android:layout_marginBottom="8dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lama" />
+    <TextView
+        android:id="@+id/jmlObatR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lama Booking "
+        android:textSize="20dp"
+        android:textColor="@color/colorHitam"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Pembayaran" />
+    <TextView
+        android:id="@+id/totalJualR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textSize="20dp"
+        android:textColor="@color/colorHitam"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>
